@@ -12,7 +12,7 @@ const products = [
     link: '/docs/idhara/intro',
   },
   {
-    name: 'APFC',
+    name: 'APFC + Soft Starter',
     description: 'Automatic Power Factor Correction device documentation.',
     link: '/docs/apfc/intro',
   },

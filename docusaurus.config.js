@@ -57,7 +57,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'apfcSidebar',
             position: 'left',
-            label: 'APFC',
+            label: 'APFC + Soft Starter',
           },
           {
             type: 'docSidebar',
@@ -70,6 +70,11 @@ const config = {
             sidebarId: 'demetercloudSidebar',
             position: 'left',
             label: 'DemeterCloud',
+          },
+          {
+            to: '/docs/roadmap',
+            label: 'Roadmap',
+            position: 'right',
           },
           {
             href: 'https://github.com/peepulagri/techinfo',
@@ -85,7 +90,7 @@ const config = {
             title: 'Products',
             items: [
               { label: 'iDhara', to: '/docs/idhara/intro' },
-              { label: 'APFC', to: '/docs/apfc/intro' },
+              { label: 'APFC + Soft Starter', to: '/docs/apfc/intro' },
               { label: 'ORC', to: '/docs/orc/intro' },
               { label: 'DemeterCloud', to: '/docs/demetercloud/intro' },
             ],
