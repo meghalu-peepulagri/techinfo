@@ -1,0 +1,26 @@
+58	14-04-2026	IDhara DV1.2.4	Why 80A its percentage right?
+
+The dry run limit, overload limit has to be shown in confirmation message not the percentage values of those parameters.
+
+Also in "confirm settings update" only voltage faults, current faults are being displayed, the changed FLC is not shown. When only FLC is changed, then it is dispalying. 
+59	14-04-2026	IDhara DV1.2.4	Why pervious and current values are same ?
+60	14-04-2026	IDhara DV1.2.4	sync between mobile and admin missing
+61	14-04-2026	IDhara DV1.2.4	Off state not updating properly. After Refresh its changed
+62	14-04-2026	IDhara DV1.2.4	what is the requirement of that screen if user want to comeback he will arrow right? most of the screens are having it ,any special purpose.
+63	17-04-2026	IDhara DV1.2.4	Initially the motor was running in AUTO mode, then wanted to turn-off the motor. When clicked on mode change in the pop-up screen why is it showing to change the motor to AUTO when it is already in AUTO?.....After changing and refreshing, it is then showing the option to change to MANUAL.
+64	18-04-2026	IDhara DV1.2.4	Test run timer is not updating in the background if the app is closed. Took more than 2mins to decrement 1min test run timer. Even the motor OFF command is sent at the end of test run the device didn't turn off. The device might have missed the OFF command; due to this it will stay in ON state even after the test run is completed. So, it is required to keep a retry logic for both motor ON, OFF commands during the start and end of the test run respectively. The timeout interval for retry commands needs to be 5seconds and retry count of 2 times is required.
+65	18-04-2026	IDhara DV1.2.4	Couldn't save the configuration. Took several clicks to save the settings. NOTE: This issue is not repeatedly occurring, but observed once while testing
+66	18-04-2026	IDhara DV1.2.4	The motor is turned off in AUTO mode but it's not due to power failure. Why is it displaying power failure even when the power is on and voltages are being displayed on the home screen? These notifications might create ambiguity.
+67	18-04-2026	IDhara DV1.2.4	When there was no power failure earlier, why is it displaying "after power recovery" every time the motor is set to AUTO mode..No power failure occurred from 10:25am
+68	18-04-2026	IDhara DV1.2.4	ENHANCEMENT: Can add "Starter number " & "PCB Number", "Test Run date", "Device location", "Device image" in app's device info section.
+69	18-04-2026	IDhara DV1.2.4	Why is this "No more faults" displaying multiple times when clearly input phase failure fault has occurred?
+70	18-04-2026	IDhara DV1.2.4	Why is the notification message content displaying twice when the context is the same.
+71	18-04-2026	IDhara DV1.2.4	ENHANCEMENT: Whenever the app is opened, can display  "Now" in the middle of the weather scroll bar instead of displaying the start time of the day.
+72	18-04-2026	IDhara DV1.2.4	The motor was in AUTO mode but when clicked to change the mode, it's displaying the motor is in MANUAL mode. But after refreshing the tab the mode got back to displaying AUTO.
+
+NOTE: This issue didn't repeat multiple times, only observed once while testing.
+
+
+
+
+
