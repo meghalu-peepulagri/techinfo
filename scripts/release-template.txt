@@ -1,0 +1,19 @@
+product: idhara
+version: 1.2.9
+apk: /path/to/iDhara-prod-V1.2.9.apk
+date: 2026-05-15
+type: Internal Release
+
+---
+
+### Bug Fixes
+
+**Feature / Bug Title** *(Bug #XX)*
+- Description of what was fixed
+
+**Another Fix** *(Bug #YY)*
+- Description of what was fixed
+
+### Enhancements
+
+- Enhancement description
